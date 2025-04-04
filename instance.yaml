@@ -30,6 +30,7 @@
       instance_type: "{{ instance_type }}"
       subnet_id: "{{ subnet_id }}"
       security_group: "{{ sg_id }}"
+      wait: yes  # Optional: waits for the instance to be in the running state
     loop: "{{ instances }}"
     register: ec2_info
     
