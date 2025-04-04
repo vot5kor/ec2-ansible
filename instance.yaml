@@ -1,6 +1,6 @@
 - name: Create Ec2 instance
   connection: local
-  hosts: local
+  hosts: localhost
   become: yes
   vars:
     subnet_id: subnet-042e14877f4764239
