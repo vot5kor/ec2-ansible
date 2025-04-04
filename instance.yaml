@@ -8,10 +8,10 @@
     instance_type: t3.micro
     image_id: ami-09c813fb71547fc4f
     # region: us-east-1
-  instance:
-    - mysql
-    - backend
-    - frontend
+    instance:
+      - mysql
+      - backend
+      - frontend
 
   tasks:
   - name: install AWS python libraries
